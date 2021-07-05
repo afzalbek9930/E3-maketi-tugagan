@@ -1,0 +1,365 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background: url(./images/images/E3_01.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 194px;
+}
+header nav{
+    background: #000;
+   opacity: 0.76;
+   
+ margin-bottom: 78px;
+}
+header nav .menu{
+    width: 1105px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+text-align: center;
+}
+
+header nav .menu_link ul{
+display: flex;
+justify-content: space-between;
+width: 500px;
+align-items: center;
+text-align: center;
+}
+
+header nav .menu .menu_link a{
+    display: flex;
+    flex-direction: column;
+    width: 88px;
+    height: 77px;
+    padding-top: 28px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+   
+
+  
+}
+
+header nav .menu .menu_link a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: #e9696a;
+    opacity: 0;
+    transition: .5s;
+    margin-top: 28px;
+
+
+  
+}
+header nav .menu .menu_link a:hover::after{
+    opacity: 1;
+}
+header .title {
+    width: 1105px;
+    margin: auto;
+
+}
+header .title h2{
+    font-size: 32px;
+font-weight: 400;
+line-height: 39px;
+
+}
+header .title h2 span{
+    color:#f06d6e;
+    }
+    header .title p{
+        width: 347px;
+        font-style: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #3d3d39;
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+    header .title button{
+        padding: 19px 30px 17px 30px;
+        border: 1px #fac81b solid;
+        border-left: 6px   #fac81b  solid;
+        background: #f6eee9;
+    }
+
+
+
+    section.one{
+        background: #e66768;
+        padding: 80px;
+    
+    }
+    section.one .one_iconka{
+        display: flex;
+        justify-content: space-between;
+        width: 1185px;
+        margin: auto;
+    }
+    
+    section.one h2{
+        width: 400px;
+        margin: auto;
+        margin-bottom: 80px;
+        color: #ecba0b;
+        font-size: 35px;
+        font-weight: 400;
+    }
+    section.one .iconka .iconka_img i{
+    font-size: 60px;
+    color: #fff;
+    padding: 82px;
+    border-radius: 50%;
+    background: #dd5e5f;
+    margin-bottom: 35px;
+    }
+    section.one .iconka .iconka_img i:hover {
+       border: 2px solid #fac81b;
+        color: #fac81b;
+    }
+    
+    
+    section.one .iconka .iconka_info{
+        width: 250px;
+        text-align: center;
+    }
+    section.one .iconka  h3{
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 39px;
+        color: #fff;
+        margin-bottom: 30px;
+        align-items: center;
+        text-align: center;
+    }
+    section.one .iconka .iconka_info p{
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+    section.one .iconka .iconka_info button{
+        padding: 13px 38px 15px 37px;
+        border: solid #fac81b 1px;
+        border-left: 4px solid #fac81b ;
+        background: #e66768;
+    
+    }
+
+    section.to{
+        padding-top: 87px;
+        width: 100%;
+    
+    }
+    section.to .img_doc{
+        width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    section.to .img_doc .img {
+        width: 25%;
+        position: relative;
+        overflow: hidden;
+    }
+    section.to .img_doc .img img{
+        width: 100%;
+       
+    }
+
+    section.to h2{
+        margin: auto;
+        width: 300px;
+        font-size: 35px;
+        font-weight: 400;
+        color: #ecba0b;
+        padding-bottom: 78px;
+    }
+    
+    
+    section.to .ser{
+        background:#f6f1ed;
+        width: 100%;
+        height: 82px;
+    }
+    section.to .img_doc .img .box{
+        width: 100%;
+        height: 100%;
+        background: rgba(230, 103, 104, .70);
+position: absolute;
+top: -5000px;
+transition: .5s;
+
+    }
+
+    section.to .img_doc .img:hover .box{
+        top: 0;
+     
+    }
+    
+    .img_doc .img .box h2{
+        color: #fff;
+        font-size: 22px;
+        font-weight: 400;
+    padding: 0;
+    margin: 95px 0 15px 40px;
+    
+    }
+    .img_doc .img .box p{
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 15px;
+        padding: 0;
+       margin-left: 40px;
+    }
+
+    .three h2{
+        margin: auto;
+        width: 300px;
+        font-size: 35px;
+        font-weight: 400;
+        color: #ecba0b;
+        margin-bottom: 78px;
+        margin-top: 85px;
+    }
+    
+    .three .df{
+        display: flex;
+        justify-content: space-between;
+        width: 1123px;
+margin: auto;
+    }
+    .three .three_info{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .three .three_info .three_img{
+     position: relative;
+
+
+    }
+    .three .three_info .three_img .dum img{
+        position: absolute;
+        top: 160px;
+        left: 60px;
+        
+    }
+    .three .three_info .three_lorem{
+        width: 360px;
+        align-items: center;
+        text-align: center;
+        margin-top: 68px;
+    }
+    .three .three_info .three_lorem h4{
+        color: #e66768;
+        font-size: 14px;
+        margin-bottom: 17px;
+    }
+    .three .three_info .three_lorem p{
+        color: #646464;
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;
+        margin-bottom: 88px;
+    }
+    .karta{
+       
+    }
+    .karta .inf{
+        width: 100%;
+        height: 705px;
+    }
+    
+    .karta .inframe{
+        width: 100%;
+        height: 705px;
+    }
+   
+    .karta .contact .contact_info{
+        width: 463px;
+        margin: auto;
+      display: flex;
+      flex-direction: column;
+     
+      align-items: center;
+    }
+    .karta .contact h2{
+        color: #fff;
+        font-size: 35px;
+        font-weight: 400;
+        margin-bottom: 31px;
+        }
+        .karta .contact h2:hover{
+            color: #ecba0b;
+        }
+        .karta .contact .contact_info p{
+            font-size: 13px;
+            color: #fff;
+            font-weight: 400;
+            margin-bottom: 17px;
+        }
+        .karta .contact .contact_info .tel{
+            color: #fff;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        .karta .contact .contact_info .com{
+            font-size: 14px;
+            color: #fff;
+            margin-bottom: 42px;
+        }
+  
+      
+       
+    footer{
+        background: #3d3d3d;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    footer .footer_link ul{
+        width: 430px;
+       margin: auto;
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 18px;
+    }
+    footer .footer_link ul li a{
+        color: #b1b1b1;
+        font-size: 14px;
+
+    }
+    footer .kreativ{
+        border-top: 1px solid #4c4c4c;
+        width: 100%;
+     
+    }
+    footer .kreativ .end{
+        color: #919191;
+        font-size: 13px;
+        font-weight: 400;
+        margin: auto;
+        margin-top: 20px;
+        width: 250px;
+    }
+    
+   
+   
